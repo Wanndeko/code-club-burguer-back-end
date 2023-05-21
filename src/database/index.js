@@ -23,7 +23,7 @@ class Database {
     mongo(){
         mongoose.set('strictQuery', false);
         this.mongo_connection = mongoose.connect(
-            'mongodb://localhost:27017/coder-burger',
+            'mongodb://localhost:27017/mongo-burguer',
             {
                 useNewUrlParser: true,
                 useUnifiedTopology: true,
