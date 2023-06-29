@@ -1,7 +1,7 @@
 import { v4 } from 'uuid'
 import * as yup from 'yup'
 
-import User from '../models/User'
+import User from '../models/User.js'
 
 class User_controller {
     async store(request, response) {

@@ -1,10 +1,10 @@
 import express from "express"
-import routes from "./routes"
-import './database'
-import {resolve} from "path"
+import routes from "./routes.js"
+import './database/index.js'
+import {resolve, dirname} from "path"
 import cors from "cors"
 
-
+const __dirname = resolve(dirname(''))
 class App {
   constructor() {
     this.App = express()

@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken'
-import auth_config from '../../config/auth'
+import auth_config from '../../config/auth.js'
 
 export default (request, response, next)=>{
     const auth_token = request.headers.authorization

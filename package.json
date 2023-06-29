@@ -1,5 +1,6 @@
 {
   "name": "code_club_burguer",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "src/server.js",
