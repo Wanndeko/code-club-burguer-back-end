@@ -9,6 +9,9 @@
     "dev": "nodemon",
     "debug": "nodemon --inspect"
   },
+  "extensionless": {
+    "lookFor": ["js", "mjs", "cjs"]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
